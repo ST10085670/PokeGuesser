@@ -20,6 +20,7 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONObject
 import java.util.Locale
+import androidx.core.graphics.toColorInt
 
 class MainActivity : AppCompatActivity() {
     
@@ -54,7 +55,7 @@ class MainActivity : AppCompatActivity() {
             retryLayout.visibility = View.GONE
             fetchRandomPokemon()
             lives = 3
-            btnSubmit.setBackgroundColor(Color.parseColor("#F44336")) // Reset to red
+            btnSubmit.setBackgroundColor("#F44336".toColorInt()) // Reset to red
             
         }
         
