@@ -3,5 +3,5 @@
     <font
         android:fontStyle="normal"
         android:fontWeight="100"
-        android:font="@font/PressStart2P" />
+        android:font="@font/pixel" />
 </font-family>
