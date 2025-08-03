@@ -69,8 +69,10 @@ class MainActivity : AppCompatActivity() {
                 txtOutput.text = "Correct! It's ${currentPokemonName.capitalize()}!"
                 txtOutput.setTextColor(Color.parseColor("#4CAF50"))
                 
+                
                 // Show retry screen (win case)
                 txtRetryResult.text = "Correct! It was ${currentPokemonName.capitalize()}!"
+                fetchRandomPokemon()
                 
                 
             } else {
